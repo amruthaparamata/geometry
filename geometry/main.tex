@@ -85,9 +85,6 @@
 %\let\StandardTheFigure\thefigure
 \let\vec\mathbf
 
-
-
-
 Draw the circle with centre at $\vec{O}$ and radius\\
 R = OA\\
 This is known as the circumradius\\
@@ -103,88 +100,27 @@ Given,\\
 \vec{C} &= \myvec{-3\\-5}
 \end{align}
 Let AD, BE, CF are altitudes of triangle from vertices $\vec{A}$, $\vec{B}$, $\vec{C}$ respectively.\\
-Consider;
+Equation of AD,
 \begin{align}
-Slope of BC &= \frac{-5-6}{-3+4}
-                m1 &= -11
+       AD &= \myvec{1+t\\-1+\frac{t}{11}}
 \end{align}
-Therefore, Slope of AD = $\frac{1}{11}$\\
-Consider;
-\begin{align}
-Slope of AC &= \frac{-5+1}{-3-1}
-                m2 &= 1
-\end{align}
-Therefore, Slope of BE = -1\\
-We know that,\\
-Equation of line passing through a point $\vec{P}$ and having slope m is
-\begin{align}
-       \vec{r} &= \vec{P} + t\vec{v}
-\end{align}
-where; $\vec{P}$ is given point\\
-       $\vec{r}$ is required vector\\
-       t is a scalar\\
-       $\vec{v}$ is \myvec{1\\m}\\
-For equation of AD,
-\begin{align}
-       AD &= \myvec{1\\-1} + t\myvec{1\\\frac{1}{11}}
-\end{align}
-\begin{align}
-       AD &= \myvec{1+t\\\left(-1+\frac{t}{11}\right)}
-\end{align}
-For equation of BE,
-\begin{align}
-       BE &= \myvec{-4\\6} + s\myvec{1\\-1}
-\end{align}
+Equation of BE,
 \begin{align}
        BE &= \myvec{-4+s\\6-s}
 \end{align}
-To get point of intersection of AD and BE, Equate above two equations;
-\begin{align}
-       \myvec{\left(1+t\right)\\\left(-1+\frac{t}{11}\right)} &= \myvec{-4+s\\6-s}
-\end{align}
-Now, compare like terms;\\
-Consider,
-\begin{align}
-       1+t &= 4+s
-\end{align}
-\begin{align}
-       t &= -5+s
-\end{align}
-Now, consider
-\begin{align}
-       -1+\frac{t}{11} &= 6-s
-\end{align}
-\begin{align}
-       -11-5+s &= 66-11s
-\end{align}
-\begin{align}
-        s &= \frac{41}{6}
-\end{align}
-Therefore;
-\begin{align}
-        \myvec{x\\y} &= \myvec{-4+s\\6-s}
-\end{align}
-\begin{align}
-        \myvec{x\\y} &= \myvec{\left(-4+\frac{41}{6}\right)\\\left(6-\frac{41}{6}\right)}
-\end{align}
-\begin{align}
-        \myvec{x\\y} &= \myvec{\frac{17}{6}\\\frac{5}{6}}
-\end{align}
-Here, point of intersection \myvec{x\\y} is Orthocentre($\vec{O}$)\\
+The point of intersection of AD and BE is $\vec{O}$;
 Therefore,\\
 \begin{align}
         \vec{O} &= \myvec{\frac{17}{6}\\\frac{5}{6}}
 \end{align}
-Radius of circle with centre $\vec{O}$ is OA
+Radius of circle with centre $\vec{O}$
 \begin{align}
-             OA &= \sqrt{\left(\frac{17}{6} - 1 \right)^2 + \left(\frac{5}{6} + 1 \right)^2}
-\end{align}
-\begin{align}
-             OA &= \sqrt{(\frac{11}{6})^2 + (\frac{11}{6})^2}
-\end{align}
-\begin{align}
-             OA &= \frac{11\sqrt{22}}{6}
+             R = OA 
+               = \frac{11\sqrt{22}}{6}
 \end{align}
 Therefore;\\
-Radius of circle = $\frac{11\sqrt{22}}{6}$\\
+The equation of circle is
+\begin{align}
+\left(x - \frac{17}{6}\right)^2 + \left(y - \frac{5}{6}\right)^2 = \left(\frac{11\sqrt{22}}{6}\right)^2
+\end{align}
 \end{document}
