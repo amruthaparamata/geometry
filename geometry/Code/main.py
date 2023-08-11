@@ -49,10 +49,6 @@ def midPoint(A, B):
 def draw_triangle_and_circle(A, B, C):
     circumcenter = findCircumCenter(A, B, C)
     radius = ((A[0] - circumcenter[0])**2 + (A[1] - circumcenter[1])**2)**0.5
-    print('Circumcenter:', circumcenter)
-    print('Radius:', radius)
-    print('Equation of the circle:')
-    print('x^2 + y^2 +', -2 * circumcenter[0], 'x +', -2 * circumcenter[1], 'y +', circumcenter[0]**2 + circumcenter[1]**2 - radius**2, '= 0')
     # Plotting the triangle
     plt.plot([A[0], B[0]], [A[1], B[1]], 'b-')
     plt.plot([B[0], C[0]], [B[1], C[1]], 'b-')
